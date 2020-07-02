@@ -121,7 +121,8 @@ h4::selection {
     width: 50%; } }
 @media screen and (max-width: 1074px) {
   .row-div {
-    margin: auto; }
+    margin: auto;
+    margin-right: 0px; }
 
   #edu-div {
     width: 100%; }
