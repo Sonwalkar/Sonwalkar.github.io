@@ -9,6 +9,9 @@ h4::selection{
     height: 300px;
     margin:7% 0% 0% auto;
 }
+.row-div{
+    margin-right: 0%; overflow: hidden;
+}
 
 #header-name-div{
     width: 50%;
@@ -140,6 +143,9 @@ h4::selection{
 
 }
 @media screen and (max-width: 1074px){
+    .row-div{
+        margin: auto;
+    }
     #edu-div{
         width: $per-full;
     }       
@@ -151,7 +157,8 @@ h4::selection{
     }
     #header-name-div{
         margin: 1% 50px;
-        padding-left: 10px;
+        padding:0px;
+        width: auto
     }
     .header-bgimg{
         height: 650px;
