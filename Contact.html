@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <link href="resume.css" rel="stylesheet">
+
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="navigation_bar.css">
+        <script src="navigation_script.js" defer></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./icon/mylogo.png" rel="icon">
+    </head>
+    <body>
+        <header>
+
+            <nav class="navi-bar">
+                <div class="myname"><img src="./icon/mylogo.png" height="50px">&nbsp  Akshay Sonwalkar</div>
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="Code_place.html">Code Place</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="Contact.html" class="current">Contact</a></li>
+    
+                    </ul>
+                </div>
+            </nav>
+    
+
+        <div class="header-bgimg">
+            <div class="row" style="margin-right: 0%; overflow: hidden;">
+                <div id="header-img-div">
+                    <img src="./images/mypic.jpg" class="profile-img" alt="mypic">
+                </div>
+                <div id=header-name-div>
+                    <center>
+                    <h1 id="myname-shadow" style="font-size: 250%; white-space: pre-wrap;">&nbspAKSHAY &nbspSONWALKAR</h1><br>
+                    <h3 id="myname-shadow" style="font-size: 150%; white-space: pre-wrap;">&nbspComputer Engineer</h3>
+                    </center>
+                </div>
+            </div>
+           </div>
+        </header>
+
+        <section>
+            <div style="padding-top: 70px; padding-bottom: 70px;">
+                <center>
+                <h1 style="font-size: 45px;">
+                    <b>Contact Me</b>
+                </h1>
+                <hr style="width: 60%">
+            </center>
+            </div>
+
+            <div id="Contact">
+                <form class="label">
+                    <label>
+                        Name
+                    </label>
+                    <br>
+                    <input  class="box" type="text" placeholder="Enter your name" required><br><br>
+                    <label>
+                        Email ID
+                    </label>
+                    <br>
+                    <input class="box" type="email" placeholder="Enter your Mail ID" required><br><br>
+                    <label>
+                        Subject
+                    </label>
+                    <br>
+                    <input class="box" type="text" placeholder="Enter Subject" required><br><br>
+                    <label>
+                        Description
+                    </label>
+                    <br>
+                    <textarea class="box" placeholder="Description" required></textarea><br>
+                    <br><button id="btn-c" type="reset">Clear</button> &nbsp
+                    <button id="btn"type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <footer style="background-color:cornsilk; padding-top: 7%;">
+            <div style="padding-bottom: 30px;">
+                <center>
+                    <a href="https://www.facebook.com/profile.php?id=100007958775677" target="_blank"><img class="social-icons" src="./icon/facebook-logo.png" alt="facebook icon"></a>
+                    <a href="https://www.instagram.com/akshay_sonwalkar/" target="_blank"><img class="social-icons" src="./icon/Instagram-Icon.png" alt="Instagram-Icon"></a>
+                    <a href="https://in.linkedin.com/in/akshay-sonwalkar-6ba45b149" target="_blank"><img class="social-icons" src="./icon/linkedin-sign.png" alt="linkedin icon"></a>
+                    <a href="https://github.com/Sonwalkar" target="_blank"><img class="social-icons" src="./icon/github-logo.png" alt="github icon"></a>
+                    <a href="https://twitter.com/AkshaySonwalka6" target="_blank"><img class="social-icons" src="./icon/twitter.png" alt="twitter icon"></a>
+                    <a href="mailto:Sonakashay@gmail.com" target="_balnk"> <img class="social-icons" src="./icon/mail-logo.png" alt="mail icon"> </a>
+                    <hr width="70%">
+                    Made by: Akshay Sonwalkar    
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
