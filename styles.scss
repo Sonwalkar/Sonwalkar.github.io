@@ -1,0 +1,169 @@
+$per-full: 100%;
+$per-half: 50%;
+
+h4::selection{
+    background-color:#f4b002;
+}
+#header-img-div{
+    width: 300px;
+    height: 300px;
+    margin:7% 0% 0% auto;
+}
+
+#header-name-div{
+    width: 50%;
+    height: 17.5%;
+    margin:10% auto 0% 0%; 
+    padding-left: 250px;;
+}
+
+.profile-img{
+    width: $per-full;
+    height: $per-full;
+    border-radius: $per-half;
+
+}
+
+
+.button-shadow:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.header-bgimg{
+    background-image: url("./images/Brick-Wallpapers-HD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+#edu-div{
+    background-image: url("./images/Higher-Education-1l4yj3p.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow:seashell;
+    overflow: auto;
+}
+
+#edu-div{
+    ul{
+        li{
+            list-style-type:square;
+        }
+    }
+}
+
+#hobbie-div{
+    background-image: url("./images/black-and-white-cartoon-donald-duck-spotlight.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.divboxforsection {
+    background-color :white;
+    margin-bottom: 5%;
+	padding:30px;
+    width:500px;
+    height: 300px;
+	overflow: auto;
+    border-radius:15px;
+    box-shadow:0px 0px 10px 5px grey;
+    text-align: left;
+}
+
+
+
+.social-icons {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+
+.button{
+    width:350px;
+    height: 55px;
+	padding:6px;
+	border: 2px solid rgb(59, 255, 75);
+	border-radius:8px;
+	background-color:rgb(13, 172, 40);
+	cursor:pointer;
+    margin:3px;
+}
+
+#myname-shadow{
+    
+    font-family: loki;
+    color: azure;
+    text-shadow: rgba(0, 0, 0, 0.63) 0px 1px,
+     rgba(0, 0, 0, 0.63) 0px 2px,
+     rgba(0, 0, 0, 0.63) 0px 3px,
+     rgba(0, 0, 0, 0.63) 0px 4px,
+     rgba(0, 0, 0, 0.63) 0px 5px,
+     rgba(0, 0, 0, 0.63) 0px 6px,
+     rgba(0, 0, 0, 0.63) 0px 7px,
+     rgba(0, 0, 0, 0.63) 0px 8px,
+     rgba(0, 0, 0, 0.63) 0px 9px,
+     rgba(0, 0, 0, 0.63) 0px 10px,
+     rgba(0, 0, 0, 0.63) 0px 11px,
+     rgba(0, 0, 0, 0.63) 0px 12px,
+     rgba(0, 0, 0, 0.63) 0px 13px,
+     rgba(0, 0, 0, 0.63) 0px 14px,
+     rgba(0, 0, 0, 0.63) 0px 15px,
+     rgba(0, 0, 0, 0.63) 0px 16px,
+     rgba(0, 0, 0, 0.63) 0px 17px,
+     rgba(0, 0, 0, 0.63) 0px 18px,
+     rgba(0, 0, 0, 0.63) 0px 19px,
+     rgba(0, 0, 0, 0.63) 0px 20px,
+     rgba(0, 0, 0, 0.63) 0px 21px,
+     rgba(0, 0, 0, 0.63) 0px 22px,
+     rgba(0, 0, 0, 0.63) 0px 23px,
+     rgba(0, 0, 0, 0.63) 0px 24px,
+     rgba(0, 0, 0, 0.63) 0px 25px,
+     rgba(0, 0, 0, 0.63) 0px 26px,
+     rgba(0, 0, 0, 0.63) 0px 27px,
+     rgba(0, 0, 0, 0.63) 0px 28px,
+     rgba(0, 0, 0, 0.63) 0px 29px,
+     rgba(0, 0, 0, 0.63) 0px 30px,
+     rgba(0, 0, 0, 0.63) 0px 31px;
+
+
+}
+@media screen and (min-width: 1075px){
+    #edu-div{
+        width: $per-half;
+    }       
+    #hobbie-div{
+        width: $per-half;
+    }
+
+}
+@media screen and (max-width: 1074px){
+    #edu-div{
+        width: $per-full;
+    }       
+    #hobbie-div{
+        width: $per-full;
+    }
+    #header-img-div{
+        margin: 10% auto 1% auto;
+    }
+    #header-name-div{
+        margin: 1% 50px;
+        padding-left: 10px;
+    }
+    .header-bgimg{
+        height: 650px;
+    }
+    .divboxforsection{
+        margin-bottom: 10%;
+        padding: 20px;
+        width: 95%;
+    }
+    .button{
+        width: 250px;
+        height: 60px;
+
+    }
+}
