@@ -12,7 +12,6 @@ h4::selection {
   margin: 7% 0% 0% auto; }
 
 .row-div {
-  margin-right: 0%;
   overflow: hidden; }
 
 #header-name-div {
@@ -120,9 +119,6 @@ h4::selection {
   #hobbie-div {
     width: 50%; } }
 @media screen and (max-width: 1074px) {
-  .row-div {
-    margin: auto; }
-
   #edu-div {
     width: 100%; }
 
